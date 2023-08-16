@@ -8,7 +8,7 @@ In the console output, Jenkins obtained the Jenkinsfile from Github and used git
 
 Then there was a test stage, which created a document with the results.
 
-Then to manually deploy it to AWS Elastic Beanstalk, I download the files from the repository as a zip. I am doing the IAM roles according to the scribe. I created a role for the Elastic Beanstalk and then one for the EC2 - not sure what that is doing  
+Then to manually deploy it to AWS Elastic Beanstalk, I download the files from the repository as a zip. I am doing the IAM roles according to the scribe. I created a role for the Elastic Beanstalk and then one for the EC2 - not sure what that is doing -> giving permissions to particular roles to use EC2 and 
 
 I then created an application on Elastic Beanstalk. I choose Web Server Environment and titled the application - url shortener. Under platform I selected Python and Python 3.9 running on 64bit Amazon Linux 2023. I am assuming this is the code version in order to run the code. It could also be ensuring to download the dependencies that work together on the python version and operating system. 
 
