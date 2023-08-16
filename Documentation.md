@@ -15,3 +15,8 @@ I then created an application on Elastic Beanstalk. I choose Web Server Environm
 When configuring the service access on Elastic Beanstalk we use the role that we previously created. Then we selected the default VPC and selected an availability zone. For the instance type, be sure to delete what the have originally and select the instance that is required
 
 I ran into a server error but it was solved by zipping the actual files instead of using the zipped file from githubI downloaded the files from the C4 deployment and uploaded them to my own repository.
+
+
+![Plan - Deployment 1 drawio](https://github.com/nalDaniels/Deployment1/assets/135375665/3c9087d1-483a-4bf7-866b-3bc1d91a83b4)
+<img width="906" alt="Screen Shot 2023-08-15 at 9 04 22 PM" src="https://github.com/nalDaniels/Deployment1/assets/135375665/65fd1e9f-dd26-4fd5-91a3-5eb1d47895aa">
+
