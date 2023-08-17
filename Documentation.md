@@ -21,7 +21,7 @@ To learn how to use Jenkins to automate the CI pipeline and manually deploy an a
     I then created an application on Elastic Beanstalk. I choose Web Server Environment and titled the             application - url shortener. Under platform I selected Python and Python 3.9 running on 64bit Amazon           Linux 2023. I am assuming this is the code version in order to run the code. It could also be ensuring         to download the dependencies that work together on the python version and operating system. 
     When configuring the service access on Elastic Beanstalk we use the role that we previously created.           Then we selected the default VPC and selected an availability zone. For the instance type, be sure to          delete what the have originally and select the instance that is required.
   #### c. Issues
-    I ran into a server error but it was solved by zipping the actual files instead of using the zipped            file from github. I downloaded the files from the C4 deployment and uploaded them to my own repository.
+    I ran into a server error, but it was resolved by zipping the actual files instead of using the zipped            file from github. I downloaded the files from the C4 deployment and uploaded them to my own repository.
 
 ## CI/CD Pipeline Diagram
 ![Plan - Deployment 1 drawio](https://github.com/nalDaniels/Deployment1/assets/135375665/3c9087d1-483a-4bf7-866b-3bc1d91a83b4)
