@@ -1,8 +1,8 @@
-##Purpose of Deployment
+## Purpose of Deployment
 To learn how to use Jenkins to automate the CI pipeline and manually deploy an application on AWS Elastic Beanstalk, which sets up cloud infrastructure without having to do it independently. 
 
-##Steps to Production
-#1. Using Jenkins to build and test application
+## Steps to Production
+# 1. Using Jenkins to build and test application
   a. Process
     I signed into Tyrone’s Jenkins account and created a new item/pipeline label Nalani_D. Then I went to the      pipeline section and selected Pipeline from SCM since our code and files are coming from Github. I copied      my   repository link and inputed that into the repository URL box. 
     Then I add credentials using my github username and generating a classic token for the password. I changed     the branch, applied and saved it.
@@ -13,7 +13,7 @@ To learn how to use Jenkins to automate the CI pipeline and manually deploy an a
     repository. It then seems to be running packages for python given the “./” After further research it seems     that it is checking to see if certain  required packages have been installed.
     Then there was a test stage, which created a document with the results.
 
-#2. Manually Deploy to AWS Elastic Beanstalk
+# 2. Manually Deploy to AWS Elastic Beanstalk
   a. Create IAM roles
     Then to manually deploy it to AWS Elastic Beanstalk, I download the files from the repository as a             zip. I am doing the IAM roles according to the scribe. I created a role for the Elastic Beanstalk and          then one for the EC2. The first one allowed Elastic Beanstalk to configure cloud infrastructure for            the application, and the EC2 role allows the EC2 instance to use other AWS resources.  
   b. Configure application environment/infrastructure
@@ -22,9 +22,9 @@ To learn how to use Jenkins to automate the CI pipeline and manually deploy an a
   c. Issues
     I ran into a server error but it was solved by zipping the actual files instead of using the zipped            file from github. I downloaded the files from the C4 deployment and uploaded them to my own repository.
 
-##CI/CD Pipeline Diagram
+## CI/CD Pipeline Diagram
 ![Plan - Deployment 1 drawio](https://github.com/nalDaniels/Deployment1/assets/135375665/3c9087d1-483a-4bf7-866b-3bc1d91a83b4)
 
-##Deployment Success
+## Deployment Success
 <img width="906" alt="Screen Shot 2023-08-15 at 9 04 22 PM" src="https://github.com/nalDaniels/Deployment1/assets/135375665/65fd1e9f-dd26-4fd5-91a3-5eb1d47895aa">
 
