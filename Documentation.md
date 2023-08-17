@@ -2,7 +2,7 @@
 To learn how to use Jenkins to automate the CI pipeline and manually deploy an application on AWS Elastic Beanstalk, which sets up cloud infrastructure without having to do it independently. 
 
 ## Steps to Production
-# 1. Using Jenkins to build and test application
+### 1. Using Jenkins to build and test application
   a. Process
     I signed into Tyrone’s Jenkins account and created a new item/pipeline label Nalani_D. Then I went to the      pipeline section and selected Pipeline from SCM since our code and files are coming from Github. I copied      my   repository link and inputed that into the repository URL box. 
     Then I add credentials using my github username and generating a classic token for the password. I changed     the branch, applied and saved it.
@@ -14,7 +14,7 @@ To learn how to use Jenkins to automate the CI pipeline and manually deploy an a
     Then there was a test stage, which created a document with the results.
 
 
-# 2. Manually Deploy to AWS Elastic Beanstalk
+### 2. Manually Deploy to AWS Elastic Beanstalk
   a. Create IAM roles
     Then to manually deploy it to AWS Elastic Beanstalk, I download the files from the repository as a             zip. I am doing the IAM roles according to the scribe. I created a role for the Elastic Beanstalk and          then one for the EC2. The first one allowed Elastic Beanstalk to configure cloud infrastructure for            the application, and the EC2 role allows the EC2 instance to use other AWS resources.  
   b. Configure application environment/infrastructure
