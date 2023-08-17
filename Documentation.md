@@ -1,4 +1,4 @@
-Purpose of Deployment
+## Purpose of Deployment
 To learn how to use Jenkins to automate the CI pipeline and manually deploy an application on AWS Elastic Beanstalk, which sets up cloud infrastructure without having to do it independently. 
 
 ## Steps to Production
@@ -12,6 +12,7 @@ To learn how to use Jenkins to automate the CI pipeline and manually deploy an a
     In the console output, Jenkins obtained the Jenkinsfile from Github and used git to download the           
     repository. It then seems to be running packages for python given the “./” After further research it seems     that it is checking to see if certain  required packages have been installed.
     Then there was a test stage, which created a document with the results.
+
 
 # 2. Manually Deploy to AWS Elastic Beanstalk
   a. Create IAM roles
